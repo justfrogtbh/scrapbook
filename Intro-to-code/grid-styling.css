@@ -1,20 +1,11 @@
-/* Styling Grid */ 
-.grid-container {
-    display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 300px 300px 300px;
-    row-gap: 10px;
-    column-gap: 20px;
-    justify-content: center;
-    align-content: center;
-}
-.grid-item {
-    background-color: #88bd88;
-    color: white;
-    border: 3px dotted #3f5f3f;
-    width: 300px;
-    text-align: center;
-    padding: 50px 0 50px;
-    line-height: 300px;
-    font-size: 15px;
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex-flow:row;
+    justify-content: flex-start;
+    height:200px;
+    background-color:grey;
+    color:white;
+    border: 2px solid white;
 }
